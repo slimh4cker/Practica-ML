@@ -16,14 +16,14 @@ Esta practica implementa un **modelo de Árbol de Decisión** usando el dataset 
 
 A continuacion una lista del comportamientos según la profundidad del árbol:
 
-### 🔹 max_depth bajo (1 o 2)
+### max_depth bajo (1 o 2)
 - Reglas muy simples y claras al igual que visualizar el arbol. 
 
-### 🔹 max_depth intermedio (3)
+### max_depth intermedio (3)
 - Aumenta la precisión.  
 - Las reglas siguen siendo legibles.
 
-### 🔹 max_depth=None (sin límite)
+### max_depth=None (sin límite)
 - El árbol crece de forma completa.  
 - Las reglas se vuelven extensas y difíciles de interpretar.  
 
@@ -33,7 +33,7 @@ En general, no es necesario establecer una profundidad indefinida para poder int
 
 # ¿El dataset cumple los requisitos para un Árbol de Decisión?
 
-### ✔ **Si cumple.**
+### **Si cumple.**
 
 ### Razones:
 1. **Todas las características son numéricas**, lo cual facilita la partición de nodos.  
